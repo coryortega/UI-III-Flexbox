@@ -1,0 +1,119 @@
+header {
+	display: flex;
+	justify-content: space-between;
+  }
+  logo {
+	display: flex;
+  }
+  button{
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 11px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+  }}
+  .body p {
+  padding: 10px
+  }
+  .img {
+	display: flex;
+	margin-top: 25px
+  }
+  .container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+	
+  }
+  html, body {
+	  height: 100%;
+	  font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5 {
+	  font-family: 'Bangers', cursive;
+	  letter-spacing: 1px;
+	  margin-bottom: 15px;
+  }
+  /* header */
+  
+  header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 640px;
+	/* width: 691px; */
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 20px;
+	font-size: 15px;
+	color: gray;
+	text-decoration: none;
+  }
+  nav .logo {
+	display: flex;
+	flex-direction: column;
+  }
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  header .logo { 
+	margin-top: 25px;
+	display: flex;
+	justify-content: flex-end;
+  }
+  .main-content .top-content {
+	display: flex;
+	border-top: 1px solid black;  
+  }
+  
+  .main-content .top-content .text-content {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFF0F5;
+  }
+  
+  .main-content .middle-content {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .main-content .middle-content .text-content {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFF0F5;
+  }
+  
+  .main-content .bottom-content {
+	display: flex; 
+	border-bottom: 1px solid black;
+  }
+  
+  .main-content .bottom-content .text-content {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFF0F5
+  }
+  
+  .bottom {
+	display: flex;
+	padding: 25px;
+	justify-content: space-between;
+  }
+  .img2 {
+	margin-left: 50px
+  }
+  
+  footer {
+	display: flex;
+	justify-content: center;
+  }
+  
